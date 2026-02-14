@@ -1,0 +1,60 @@
+body {
+  background-color: var(--background-secondary);
+}
+
+.centered-container {
+  transform: translateX(-50%);
+  margin-left: 50%;
+  width: 100%;
+  max-width: 1140px;
+}
+
+marker {
+  font-weight: bold;
+  font-style: italic;
+}
+
+hr {
+  border: 1px outset var(--white);
+  border-bottom-color: var(--white-soft);
+  margin-bottom: 5px;
+}
+
+select,
+input {
+  background: var(--background);
+  color: var(--white-soft);
+  border: none;
+  padding: 3px 10px;
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+}
+select {
+  text-align: center;
+}
+input {
+  padding: 5px;
+}
+input:disabled {
+  background: var(--background-secondary);
+  color: var(--background-secondary);
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--background);
+  margin-left: 5px;
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+@media (max-width: 1024px) { /* mobile */
+  #app {
+    width: 100%;
+  }
+}

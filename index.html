@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BEST</title>
-</head>
-<body>
-  202 - [WIP] Best Site comming soon...
-</body>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="static/assets/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BEST</title>
+
+    <link rel="stylesheet" href="static/assets/font/Icomoon/style.css">
+    <link rel="stylesheet" href="static/base.css">
+    <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="static/elements.css">
+  </head>
+  <body>
+    <div id="app">
+      <main>
+        <div>
+          <nav>
+            <div class="centered-container">
+              <span id="header-logo">
+                <img id="logo-icon" src="static/assets/logo_mini_white.svg" alt="BEST logo">
+                <label id="logo-text" for="header-logo">BEST</label>
+              </span>
+              <a class="header-link" href="">Log in</a>
+            </div>
+          </nav>
+          <div id="first-content" class="content">
+            <div class="centered-container t-center">
+              <span id="mainarea-comment">
+                <i class="icon-star-full"></i>
+                <i class="icon-star-full"></i>
+                <i class="icon-star-full"></i>
+                <i class="icon-star-full"></i>
+                <i class="icon-star-full"></i>
+                "Actual feedback!"
+              </span>
+              <h1 style="font-size:4rem;">Some Descriptive Phrase Here!</h1>
+              <h2 style="font-size:2rem;"> What we <marker>can for sure</marker> help you with</h2>
+                <br><br>
+              <div class="button-holder">
+                <button class="mainarea-btn">Start as a Student</button>
+                <button class="mainarea-btn">Start as a Teacher</button>
+              </div>
+            </div>
+          </div>
+          <div id="second-content" class="content">
+            <div class="centered-container t-center f-center">
+              <h1>Here's a brief explanation of the idea</h1>
+              <p style="max-width:500px;"> Praesent dignissim tempus luctus. Duis et rutrum lectus.
+                Quisque tempus nulla justo, non ornare quam faucibus bibendum. Vestibulum aliquet euismod leo. Phasellus
+                semper massa vitae dui sodales euismod. Quisque luctus leo elit, id posuere nulla cursus sit amet.
+                Pellentesque molestie.
+              </p>
+              <br>
+              <img src="https://placehold.co/840x472?text=Video">
+            </div>
+          </div>
+          <div id="third-content" class="content">
+            <div class="centered-container duo-container">
+              <div style="max-width:520px;">
+                <h1>Actually talking about what is the differencials</h1>
+                <p class="sub-text"> Praesent egestas, lorem in convallis pellentesque, nulla nunc
+                  porta orci, ac maximus magna neque ut massa. Nulla facilisi. Praesent scelerisque vestibulum nisi vitae
+                  porta. Nunc at magna tortor. Curabitur eget.
+                </p>
+              </div>
+              <img src="https://placehold.co/500x300" alt="">
+            </div>
+            <div class="centered-container duo-container">
+              <img src="https://placehold.co/500x300" alt="">
+              <div style="max-width:520px;">
+                <h1>Maybe some more examples</h1>
+                <p class="sub-text"> Praesent egestas, lorem in convallis pellentesque, nulla nunc
+                  porta orci, ac maximus magna neque ut massa. Nulla facilisi. Praesent scelerisque vestibulum nisi vitae
+                  porta. Nunc at magna tortor. Curabitur eget.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="fourth-container" class="content">
+            <div class="centered-container f-center t-center">
+              <h1 style="font-size: 2rem;">
+                Another phrase here.<br>
+                Get started now!
+              </h1>
+              <br>
+              <div class="button-holder">
+                <button class="mainarea-btn">I'm a Student</button>
+                <button class="mainarea-btn">I'm a Teacher</button>
+              </div>
+              <br>
+              <span> Already registered?
+                <a href="">Log in</a>
+              </span>
+            </div>
+          </div>
+          <footer>
+            <div id="footer-info" class="centered-container"> ©2026. All rights reserved. </div>
+          </footer>
+        </div>
+      </main>
+    </div>
+    <script defer>
+      document.body.onkeydown = (e) => {
+        if(e.key == 'F2') {
+          e.preventDefault();
+          document.getElementsByTagName('main')[0].toggleAttribute("contenteditable");
+        }
+      }
+    </script>
+  </body>
 </html>
